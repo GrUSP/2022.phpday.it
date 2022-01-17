@@ -73,6 +73,11 @@ bronze:
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
+# diversity:
+#   sponsor1:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
 
 # Partner configuration
 partner_tags:
