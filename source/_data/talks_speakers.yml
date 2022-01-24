@@ -1,127 +1,20 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &arne
+speaker_1: &speaker
   speaker_in_speaker_lists: true
-  speaker_name: Arne Blankerts
-  speaker_pic_filename: arne-blankerts.jpeg
-  speaker_role: "Co-Founder The PHP Consulting Company"
-  speaker_bio: "has already dealt with computers when networking was still an adventure. As long-standing head of development of an internet agency, he has created solutions far ahead of the times already years ago. As Co-Founder and Principal Consultant of The PHP Consulting Company (thePHP.cc), Arne helps his clients to develop software successfully. He is author and maintainer of various Open Source development tools, and is a regular presenter at conferences. In his free time he reads fantasy novels and likes to cook."
-  speaker_github_url:
-  speaker_twitter_url: "https://twitter.com/arneblankerts"
-speaker_2: &anna
-  speaker_in_speaker_lists: true
-  speaker_name: Anna Filina
-  speaker_pic_filename: anna-filina.jpeg
-  speaker_role: "Problem Solver"
-  speaker_bio: "has been a developer since 1997. She likes robust architectures, automated testing, eliminating process waste and celebrating the success of others. She has a knack for breathing new life into legacy code and teaching developers of all levels."
-  speaker_github_url:
-  speaker_twitter_url: "https://twitter.com/afilina"
-speaker_3: &larry
-  speaker_in_speaker_lists: true
-  speaker_name: Larry Garfield
-  speaker_pic_filename: larry-garfield.jpeg
-  speaker_role: "Staff Engineer"
-  speaker_bio: "is an aspiring blacksmith who moonlights as a long-time PHP developer. When not trying to hand-forge his own medieval armory from scratch he tries to teach developers and development managers the skills of yesteryear that the industry has forgotten. He is the author of several books on PHP, including 'Thinking Functionally in PHP' and 'Exploring PHP 8.0.'"
-  speaker_twitter_url: "https://twitter.com/Crell"
-speaker_4: &stefan
-  speaker_in_speaker_lists: true
-  speaker_name: Stefan Koopmanschap
-  speaker_pic_filename: stefan-koopmanschap.jpeg
-  speaker_role: "Co-owner @ Ingewikkeld"
-  speaker_bio: "Between having a family life, doing a weekly radio show and attending conferences and user group meetings, Stefan tries running a company called Ingewikkeld and organizing WeCamp. Having worked with PHP and several of its open source products since the late 90s, he still likes it for getting the job done."
-  speaker_twitter_url: "https://twitter.com/skoop"
-speaker_5: &alexander
-  speaker_in_speaker_lists: true
-  speaker_name: Alexander Makarov
-  speaker_pic_filename: alexander-makarov.jpeg
-  speaker_role: "Project lead, Yii framework"
-  speaker_bio: "Yii framework lead and co-author of Yii 2. Yii representative in PHP-FIG. Additionally to developing Yii framework worked in companies such as Skyeng, Wrike and Stay.com and battle-tested whole generations of various technologies."
-  speaker_twitter_url: "https://twitter.com/sam_dark"
-speaker_6: &lorna
-  speaker_in_speaker_lists: true
-  speaker_name: Lorna Mitchell
-  speaker_pic_filename: lorna-mitchell.jpeg
-  speaker_role: "Developer Advocate @ Aiven"
-  speaker_bio: "is based in Yorkshire, UK; she is a Developer Advocate at Aiven as well as a published author and experienced conference speaker. She brings her technical expertise on a range of topics to audiences all over the world with her writing and speaking engagements. Lorna has a strong background in open source, and a passion is for better Developer Experiences for developers everywhere. You can find out more about Lorna on her website https://lornajane.net."
-  speaker_twitter_url: "https://twitter.com/lornajane"
-speaker_7: &marco
-  speaker_in_speaker_lists: true
-  speaker_name: Marco Perone
-  speaker_pic_filename: marco-perone.png
-  speaker_role: "Software Developer @ Soisy"
-  speaker_bio: "I am a software developer, grew up as a mathematician. I love to bring in my code the same formalism and precision you can find in math. I am particularly interested in functional programming and how to introduce and apply its ideas in non-functional languages and its links with domain modelling."
-  speaker_twitter_url: "https://twitter.com/marcoshuttle"
-speaker_8: &derick
-  speaker_in_speaker_lists: true
-  speaker_name: Derick Rethans
-  speaker_pic_filename: derick-rethans.jpeg
-  speaker_role: "Xdebug Author"
-  speaker_bio: "is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He works as an independent contractor and consultant on PHP extensions and related projects, including Xdebug."
-  speaker_twitter_url: "https://twitter.com/derickr"
-speaker_9: &christoph
-  speaker_in_speaker_lists: true
-  speaker_name: Christoph Rumpel
-  speaker_pic_filename: christoph-rumpel.jpeg
-  speaker_role: "One-Man-Show @ Christoph Rumpel"
-  speaker_bio: "is a web developer from Vienna. For the last eight years, he has been working as a backend developer using PHP and Laravel daily. Since 2018 Christoph is operating on his own as a freelancer, consultant, and teacher. Next, to his first ebook about building chatbots in PHP, he is also the author of Laravel Core Adventures and the Mastering PhpStorm video course. Christoph loves coding, teaching, surfing, bouldering, and his Nintendo Switch."
-  speaker_twitter_url: "https://twitter.com/christophrumpel"
-speaker_10: &damien
-  speaker_in_speaker_lists: true
-  speaker_name: Damien Seguy
-  speaker_pic_filename: damien-seguy.jpeg
-  speaker_role: "CTO @ exakat"
-  speaker_bio: "is CTO at Exakat Ltd., a company specializing in PHP code quality solutions for the industry. He leads the development of the exakat static auditing, that review code for migration, security and clear code. Over the last 15 years Damien has contributed to the PHP, as documentation author, elephpant raisers, User group animator on several continents. He also enjoys gremlin, 狮子头 and camembert."
-  speaker_twitter_url: "https://twitter.com/exakat"
-speaker_11: &sabine
-  speaker_in_speaker_lists: true
-  speaker_name: Sabine Wojcieszak
-  speaker_pic_filename: sabine-wojcieszak.png
-  speaker_role: "Enthusiastic Agile & DevOps Enabler @ getNext IT"
-  speaker_bio: "is passionate about human interaction, team culture, leadership and communication. For her it is somehow natural to work and think in an agile and cross-disciplinary way. That's why she is assertor of the DevOps methodology. As the Enthusiastic Agile & DevOps Enabler at getNext IT she is an expert in supporting companies and teams - especially in tech industry - to evolve their soft and social skills in order to foster collaboration for more quality and success. For her motivated people are a necessity for companies to stay competitive! Communication is crucial for success - individual as well as organizational. You will find a lot of her work as an author all over the web and in printings. She has spoken at a lot of international tech conference about those 'soft' topics. Sabine is also one of the organisers of the DevOpsDays Kiel 2016 and 2018 and the co-organiser of the meetups Lean/Agile and Software Craftsmanship in Kiel. As community manager she helps the open source research project 'titan - the Industrial DevOps Platform for agile process integration and automation' to grow. Sabine is lecturer at a University in the fields of DevOps, Working in Open Source and Agile Project Management. Her 'eat your own dogfood' approach is seen as innovativ by others."
-  speaker_twitter_url: "https://twitter.com/SabineBendixen"
-speaker_12: &enrico
-  speaker_in_speaker_lists: true
-  speaker_name: Enrico Zimuel
-  speaker_pic_filename: enrico-zimuel.jpeg
-  speaker_role: "Principal Software Engineer @ Elastic"
-  speaker_bio: "has been a programmer since 1996. Principal Software Engineer at Elastic is the maintainer of PHP and Perl libraries. Open source contributor and co-author of many PHP projects: Apigility, Expressive, Zend Framework, etc. TEDx and international speaker in 100+ conferences. Author of programming books, such as 'Sviluppare in PHP 7' by Tecniche nuove. Professor at ITS ICT Piemonte of Torino (Italy). For more information <a href='https://www.zimuel.it'>zimuel.it.</a>"
-  speaker_twitter_url: "https://twitter.com/ezimuel"
-speaker_13: &gary
-  speaker_in_speaker_lists: true
-  speaker_name: Gary Hockin
-  speaker_pic_filename: gary-hockin.jpg
-  speaker_role: "MASTER OF CEREMONIES - Senior Developer Evangelist at Twilio"
+  speaker_name:
+  speaker_pic_filename: .png
+  speaker_role: ""
   speaker_bio: ""
-  speaker_twitter_url: "https://twitter.com/GeeH"
-  is_mc: true
-speaker_14: &alessandro
-  speaker_in_speaker_lists: true
-  speaker_name: Alessandro Lai
-  speaker_pic_filename: alessandro-lai.png
-  speaker_role: "MASTER OF CEREMONIES - Web Developer Team Leader @ Facile.it"
-  speaker_bio: "is a backend developer, and works as a Team Lead Developer at Facile.it. He loves the test and static analysis tools available in the PHP ecosystem, and he is particularly active in the community, as coordinator of Milan's PHP User Group (PUG-MI), as one of PHP-FIG's secretaries and as a maintainer of several Open Source projects."
-  speaker_twitter_url: "https://twitter.com/AlessandroLai"
-  is_mc: true
+  speaker_twitter_url: ""
+  is_mc: false
 
 speakers:
-  speaker_1: *arne
-  speaker_2: *anna
-  speaker_3: *larry
-  speaker_4: *stefan
-  speaker_5: *alexander
-  speaker_6: *lorna
-  speaker_7: *marco
-  speaker_8: *derick
-  speaker_9: *christoph
-  speaker_10: *damien
-  speaker_11: *sabine
-  speaker_12: *enrico
-  speaker_13: *gary
-  speaker_14: *alessandro
+  speaker_1: *speaker
 
 tracks:
   track_1: &track_1
@@ -141,204 +34,49 @@ tracks:
 #   "workshop" -- sessione straordinaria (non workshop full-day), x es community workshop / UG
 #   "other" -- altro; si inseriranno solo ora, titolo, descrizione facoltativa
 # NB tutti i "talk" devono avere una track. I "service" e i "keynote" dovrebbero avere track_1
-
 days:
   day_1:
-    date: 2021-06-08T09:45+02:00
+    date: 2022-05-19T09:45+02:00
     title: "Day 1"
     talks:
     # service
       opening:
         item_type: "service"
-        start_datetime: 2021-06-08T09:45+02:00
-        end_datetime: 2021-06-08T10:00+02:00
+        start_datetime:
+        end_datetime:
         talk_title: "Opening by GrUSP"
       closing:
         item_type: "service"
-        start_datetime: 2021-06-08T17:45+02:00
-        end_datetime: 2021-06-08T18:00+02:00
+        start_datetime:
+        end_datetime:
         talk_title: "See you tomorrow!"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2021-06-08T11:00+02:00
-        end_datetime: 2021-06-08T11:15+02:00
+        start_datetime:
+        end_datetime:
         talk_title: "Coffee break"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2021-06-08T16:30+02:00
-        end_datetime: 2021-06-08T16:45+02:00
+        start_datetime:
+        end_datetime:
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2021-06-08T13:00+02:00
-        end_datetime: 2021-06-08T14:30+02:00
+        start_datetime:
+        end_datetime:
         talk_title: "Lunch break"
         service_icon: "cutlery"
 
       # talk
-      # talk_N:
-      #   item_type: "talk"
-      #   track: *track_1
-      #   start_datetime:
-      #   end_datetime:
-      #   talk_title: Lorem ipsum
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *regular_speaker
-      damien-elephpant:
+      talk_1:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2021-06-08T10:00+02:00
-        end_datetime: 2021-06-08T11:00+02:00
-        talk_title: "15 years in the life of elephpant"
-        talk_description: "The last ones who told me I could learn from a plush toy were my daughters. Of course, I acknowledged. Yet, it dawned on me: after ten years of life, the PHP plush has achieved so much! It went to the White House and Antarctica; it spawned forty thousand offspring and a jet-set generation of collectors; it built bridges within and outside the community. The PHP elephpant is the living symbol of the PHP community, straight from the genius of Vincent Pontier. It is a whole character, running across the world and changing colors all the time. Everybody need elephpant love ! Nowadays, it is alive and kicking. It still reviews my code, casting an odd look to me, once in while. No one can have enough elePHPant."
+        start_datetime:
+        end_datetime:
+        talk_title: ""
+        talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *damien
-      derick-eight-one:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-08T11:15+02:00
-        end_datetime: 2021-06-08T12:15+02:00
-        talk_title: "What's new in PHP 8.1"
-        talk_description: "During this presentation, we are going to look at the new features that are going to be introduced in PHP 8.1. Join me to have a look at how the type system is strengthened with Enumerations and 'never', Fibers, a new closure syntax, and other new smaller features. At the end you will have a good understand about all the new and exciting features that are likely going to be part of the PHP 8.1 release."
-        speakers:
-          speaker_1: *derick
-      stefan-open-source:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-08T12:15+02:00
-        end_datetime: 2021-06-08T13:00+02:00
-        talk_title: "Sustainable open source contributions in your business"
-        talk_description: "A lot of companies think contributing to open source is hard, but is it? In this talk you will hear about how Ingewikkeld, a small Dutch development and consultancy company, has built a sustainable model for both making a profit and also doing solid contributions to open source projects."
-        talk_video_url:
-        speakers:
-          speaker_1: *stefan
-      marco-loves-types:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-08T14:30+02:00
-        end_datetime: 2021-06-08T15:30+02:00
-        talk_title: "PHP ❤️ types"
-        talk_description: "PHP is widely known for its dynamic typing features. Still in its latest releases it introduced many features for improving the typing of our applications and many are already planned for future versions. Yet, comparing for example with what Typescript provides for the Javascript ecosystem, many relevant features are still missing from the language. Luckily, in PHP we can emulate features like union types and generics using libraries like Psalm or PHPStan. In this talk we will see how we can use the type system provided by such tools not only to prevent bugs, but also to help us modelling our domain making its invariants explicit in the type system itself. If you are interested in creating safe and reliable software, let's see together how types can help you!"
-        talk_video_url:
-        speakers:
-          speaker_1: *marco
-      arne-phpunit10:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-08T15:30+02:00
-        end_datetime: 2021-06-08T16:30+02:00
-        talk_title: "PHPUnit 10: The new Event Subsystem"
-        talk_description: "First, there was the TestListener interface for extending PHPUnit. But it was abused, because it allowed more than just listening. Then came the TestHook interfaces, but they were inconvenient to use. Now PHPUnit 10 introduces a new event system for developing extensions and for in-depth analysis of your testsuite, hoping to overcome the shortcomings of its predecessors. Join Arne Blankerts, one of the two developers behind PHPUnit's new event system, and learn how easy it can be to extend PHP's popular test runner as well as getting new detailed insights to the test execution."
-        talk_video_url:
-        speakers:
-          speaker_1: *arne
-      larry-arrays:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-08T16:45+02:00
-        end_datetime: 2021-06-08T17:45+02:00
-        talk_title: "Never* use arrays"
-        talk_description: "PHP loves its arrays. Arrays are the uber-data structure. They're a list, a map, a stack, a queue, everything in one! Which is the problem. Modern PHP grossly over-uses arrays. In most cases there are better options today, and when you find yourself reaching for 'oh I'll just make this an associative array', stop. An extra 60 seconds of thought and code will often give you a more readable, faster, more memory-efficient, more flexible alternative. Classes, iterables, and collections can and should replace arrays in most of your day to day coding. This talk will go through what PHP arrays actually are (hint: they are not, in fact, arrays at all), why they're so problematic, and what to do instead. By the end, you should find yourself (almost) never reaching for arrays to solve a problem."
-        talk_video_url:
-        speakers:
-          speaker_1: *larry
-
-  day_2:
-    date: 2021-06-09T09:45+02:00
-    title: "Day 2"
-    talks:
-    # service
-      opening:
-        item_type: "service"
-        start_datetime: 2021-06-09T09:45+02:00
-        end_datetime: 2021-06-09T10:00+02:00
-        talk_title: "Opening by GrUSP"
-      closing:
-        item_type: "service"
-        start_datetime: 2021-06-09T17:45+02:00
-        end_datetime: 2021-06-09T18:00+02:00
-        talk_title: "Closing by GrUSP"
-      coffee-morning:
-        item_type: "service"
-        start_datetime: 2021-06-09T11:00+02:00
-        end_datetime: 2021-06-09T11:15+02:00
-        talk_title: "Coffee break"
-        service_icon: "coffee"
-      coffee-afternoon:
-        item_type: "service"
-        start_datetime: 2021-06-09T16:30+02:00
-        end_datetime: 2021-06-09T16:45+02:00
-        talk_title: "Coffee break"
-        service_icon: "coffee"
-      lunch:
-        item_type: "service"
-        start_datetime: 2021-06-09T13:00+02:00
-        end_datetime: 2021-06-09T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-    #talks
-      alexander-security:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-09T10:00+02:00
-        end_datetime: 2021-06-09T11:00+02:00
-        talk_title: "Security: From basic principles to PHP specifics"
-        talk_description: "During numerous code reviews I've found that many projects sharing alike security flaws despite being developed by experienced teams. In the talk I'd cover both security basics, PHP specifics and some extras such as common errors in server configs."
-        talk_video_url:
-        speakers:
-          speaker_1: *alexander
-      lorna-timeseries-db:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-09T11:15+02:00
-        end_datetime: 2021-06-09T12:15+02:00
-        talk_title: "Introduction to Timeseries Databases"
-        talk_description: "As our applications gather more and more data, ever more quickly, both developer and application can become overwhelmed in no time. Recognising when data would be best handled as time series data (spoiler: events, logs and metrics all work pretty well), and knowing how to adapt your application to work this way can really help. This session introduces time series data concepts, and discusses the situations where the aptly named databases are a useful tool - as well as when they are not! You will learn about handling large data volumes and some of the open source tools available, such as InfluxDB and M3DB. We'll look at examples of implementing time series databases in real world applications, and give resources that you can try out yourself."
-        talk_video_url:
-        speakers:
-          speaker_1: *lorna
-      christoph-debugging:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-09T12:15+02:00
-        end_datetime: 2021-06-09T13:00+02:00
-        talk_title: "Debugging With PhpStorm And Xdebug"
-        talk_description: "Debugging with Xdebug is not everyone's favorite topic. It takes some time to get it all set up, and then you also need to get familiar with the given features and make it work with PhpStorm. Still, Xdebug provides a lot for debugging your applications, and you shouldn't miss out on that. Let me demo you the excellent combination of Xdebug and PhpStorm and show you how it will boost your debugging skills."
-        talk_video_url:
-        speakers:
-          speaker_1: *christoph
-      enrico-elasticsearch:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-09T14:30+02:00
-        end_datetime: 2021-06-09T15:30+02:00
-        talk_title: "Programming Elasticsearch with PHP"
-        talk_description: "In this presentation, we will show how to use Elasticsearch with PHP. We will give a short introduction to Elasticsearch showing how PHP developers can benefit from its usage. We will present how to connect to Elasticsearch, how to index data, how to search and aggregate information. We will also present some advanced features, such as fuzzy search, highlighting and the recent schema on read available from Elasticsearch 7.12."
-        talk_video_url:
-        speakers:
-          speaker_1: *enrico
-      anna-legacy:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-09T15:30+02:00
-        end_datetime: 2021-06-09T16:30+02:00
-        talk_title: "Rewriting Legacy Code"
-        talk_description: "Did you ever have to maintain a 15-year-old application? Dead code everywhere, hard dependencies, null pointer exceptions, database queries mixed with HTML, no tests and most libraries have been discontinued. This presentation will show you how to modernize your application using a variety of strategies. You will learn how to avoid common pitfalls, automate legacy testing, manage your development environment and overcome various challenges that arise from dealing with legacy."
-        talk_video_url:
-        speakers:
-          speaker_1: *anna
-      sabine-communication:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-06-09T16:45+02:00
-        end_datetime: 2021-06-09T17:45+02:00
-        talk_title: "Communication - the Crucial Key to Success in Uncertainty"
-        talk_description: "Today we all live, work and strive for success - in a world full of uncertainty, the VUCA world. As things around us are changing ever faster, we do not have time to waste with lots of misunderstandings caused by poor or insufficient communication and lack information flow. This applies to managers and leaders as well as employees, to developers as well as operations or support. Communication comes into play long before a project even starts and is the crucial key to success along the whole value stream - within the teams, the companies and also with externals. All agile methods, frameworks and methodologies will only work well with the right communication. This talk will not only show which impact poor communication has on motivation, on solutions and on success; it will also show the importance of good communication for business agility. Furthermore you will learn about helpful techniques for better communication and more shared understanding. Even if you need more communication in some companies, it is better to pay attention to more quality in it. Believe it or not, this will save time in the end! So if you want to be successful in the uncertainty of a fast changing world, take a closer look on your communication habits and start to improve for being better!"
-        talk_video_url:
-        speakers:
-          speaker_1: *sabine
+          speaker_1: *speaker

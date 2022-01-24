@@ -1,4 +1,4 @@
-sponsors_block_title: ""
+sponsors_block_title: "Thanks for your support!"
 # main:
 #   sponsor1:
 #     name: ""
@@ -16,68 +16,24 @@ sponsors_block_title: ""
 #     site_url: ""
 gold:
   sponsor1:
-    name: "Facile.it"
-    logo_filename: "facile.svg"
-    site_url: "https://www.facile.it/"
-  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-silver:
-  sponsor1:
-    name: "Madisoft"
-    logo_filename: "madisoft.svg"
-    site_url: "https://labs.madisoft.it"
-  sponsor2:
-    name: "OpenBox"
-    logo_filename: "openbox.svg"
-    site_url: "https://www.open-box.it"
+# silver:
+#   sponsor1:
+#     name: "Madisoft"
+#     logo_filename: "madisoft.svg"
+#     site_url: "https://labs.madisoft.it"
 bronze:
-  sponsor1:
-    name: "aiven"
-    logo_filename: "aiven.svg"
-    site_url: "https://aiven.io"
-  sponsor2:
-    name: "elastic"
-    logo_filename: "elastic.svg"
-    site_url: "https://www.elastic.co/"
-  sponsor3:
-    name: "getNextIT"
-    logo_filename: "getnextit.svg"
-    site_url: "https://www.getnext-it.com/en/"
-  sponsor4:
-    name: "Ingewikkeld"
-    logo_filename: "Ingewikkeld.svg"
-    site_url: "https://ingewikkeld.dev/"
-  sponsor5:
-    name: "soisy"
-    logo_filename: "soisy.svg"
-    site_url: "https://www.soisy.it/"
   sponsor6:
     name: "stickermule"
     logo_filename: "stickermule.svg"
-    site_url: "https://mule.to/p1j5"
-  sponsor7:
-    name: "ThePHP"
-    logo_filename: "thephp.png"
-    site_url: "https://thephp.cc"
-  sponsor8:
-    name: "xdebug"
-    logo_filename: "xdebug.png"
-    site_url: "https://xdebug.cloud/"
-#   sponsor2:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-#   sponsor3:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-# diversity:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+    site_url: "https://mule.to/p2gc"
+diversity:
+  sponsor1:
+    name: ""
+    logo_filename: ""
+    site_url: ""
 
 # Partner configuration
 partner_tags:
