@@ -29,11 +29,11 @@ bronze:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
-diversity:
-  sponsor1:
-    name: ""
-    logo_filename: ""
-    site_url: ""
+#diversity:
+#  sponsor1:
+#    name: ""
+#    logo_filename: ""
+#    site_url: ""
 
 # Partner configuration
 partner_tags:
