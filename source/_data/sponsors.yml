@@ -16,6 +16,10 @@ sponsors_block_title: "Thanks for your support!"
 #     site_url: ""
 gold:
   sponsor1:
+    name: "sparkfabrik"
+    logo_filename: "sparkfabrik.png"
+    site_url: "https://www.sparkfabrik.com/it/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
