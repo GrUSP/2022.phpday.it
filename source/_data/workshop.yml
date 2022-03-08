@@ -14,7 +14,7 @@ workshops:
     ticket_url: ""
     ticket_label: "Register now"
     location_title: "Dove"
-    location: "Verona"
+    # location: "Verona"
     online_location: "online"
     # location_name: "Hotel San Marco"
     location_name: "The Internet"
