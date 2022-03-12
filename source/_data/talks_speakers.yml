@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -171,32 +171,32 @@ days:
     title: "Day 1"
     talks:
       # service
+      checkin:
+        item_type: "service"
+        start_datetime: 2022-05-19T08:30+02:00
+        end_datetime: 2022-05-19T09:15+02:00
+        talk_title: "Check-in"
       opening:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T09:15+02:00
+        end_datetime: 2022-05-19T09:30+02:00
         talk_title: "Opening by GrUSP"
-      closing:
-        item_type: "service"
-        start_datetime:
-        end_datetime:
-        talk_title: "See you tomorrow!"
       coffee-morning:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T11:05+02:00
+        end_datetime: 2022-05-19T11:25+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T16:20+02:00
+        end_datetime: 2022-05-19T16:50+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T13:00+02:00
+        end_datetime: 2022-05-19T14:30+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
 
@@ -204,8 +204,8 @@ days:
       live-coding-in-public:
         item_type: "keynote"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T09:30+02:00
+        end_datetime: 2022-05-19T10:25+02:00
         talk_title: "Lessons Learned Live Coding in Public"
         talk_description: "Part of my job as a Developer Evangelist means I spend a lot of time live coding publicly. Mainly this is on the live-streaming platform Twitch, but also at conferences, customer training, and demos. Because my job doesn't involve all coding all the time, a lot of the things I end I coding are either incredibly complex, incredibly simple, or even throw-away.  I've done so much live coding in public that it's skewed my programming reality to a wondrous degree. Join me in this session as I relay habits I've learned to help myself with my project-hopping ways, tools I turn to again and again, and just how many times I've managed to reveal a live API key to a live-coding audience."
         talk_video_url:
@@ -214,8 +214,8 @@ days:
       best-life-legacy-project:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T17:45+02:00
+        end_datetime: 2022-05-19T18:25+02:00
         talk_title: "Living the Best Life on a Legacy Project"
         talk_description: "You've started a new job. As you dig deeper into the codebase, the WTFs per minute rate rapidly increases, and you're left wondering... \"Where do I start?!\". In this talk, I'll draw on my own experiences of joining several different teams to help maintain their legacy codebase. You'll come out of this talk with a better understanding of when you should or should not refactor existing code, the importance of communication, documentation, testing, and ideas for automated tests and checks."
         talk_video_url:
@@ -224,8 +224,8 @@ days:
       php-81:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
         talk_title: "PHP 8.1 - Just upgrade and go?"
         talk_description: "Life could be so easy: Just roll out the latest PHP version on all systems, immediately benefit from the new features and otherwise get back to implementing new requirements. In reality, however, it's not that simple: Who has time to read through all the changes in PHP and check for possible side effects in their own software? But does that really have to be the case? In this talk, we'll explore what better approaches there are to prepare for an upgrade, what tools might help, and how you can almost completely avoid the stress of a version bump."
         talk_video_url:
@@ -234,8 +234,8 @@ days:
       docs-or-did-not-happen:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T12:20+02:00
+        end_datetime: 2022-05-19T13:00+02:00
         talk_title: "Docs or it didn't happen"
         talk_description: "Your code can be all rainbows and unicorns, cutting and shining, but if there’s no documentation, does it even exist? Documentation can make or break your open source project. Don’t believe me? Let me tell you a story or three about writing and managing documentation for the largest open source CMS community. The WordPress documentation."
         talk_video_url:
@@ -244,8 +244,8 @@ days:
       the-right-api-for-the-job:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T11:25+02:00
+        end_datetime: 2022-05-19T12:20+02:00
         talk_title: "The Right API for the Job"
         talk_description: "When you've been tasked with creating an HTTP API, there's many things that you need to consider and I'm here to help you navigate your journey. We start with the fundamental decision of architecture: should your API be RESTful? What about GraphQL? or RPC? We'll look at the choices and their strengths and weaknesses to guide your decision. We'll also take a hard look at the other, vital components of an API from how it works with HTTP, through validation, payload formats and error handling. An API makes its mark when it is used, so we'll also consider developer experience to ensure that your API is best it can be. By the end of this talk, you'll be well-placed to design and deliver a great API that's fit for purpose."
         talk_video_url:
@@ -254,8 +254,8 @@ days:
       tuning-phpstan-to-maximum-strictness:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T15:25+02:00
+        end_datetime: 2022-05-19T16:20+02:00
         talk_title: "Tuning PHPStan to Maximum Strictness"
         talk_description: "Besides the traditional rule levels 0 through 9 (https://phpstan.org/user-guide/rule-levels) which allow developers to adopt PHPStan incrementally while increasing the strictness gradually, the static analyser offers plenty of other configuration options to look at the code with a critical eye. In this talk I'll show you these options with examples of practical impact on your code. It will become more predictable and readable."
         talk_video_url:
@@ -264,8 +264,8 @@ days:
       how-i-sliced-your-app:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T16:50+02:00
+        end_datetime: 2022-05-19T17:45+02:00
         talk_title: "How I sliced your app"
         talk_description: "It's that time of the year again: you've been putting it off for a long time, but your PHP project is starting to become a mess, and you don't have a plan on how to bring some order in the chaos. Complexity is always lurking around, threatening your productivity, and we constantly need to fight it. Luckily, it is very much possible to organize your code in such a way that it is easier to maintain long-term, you just need a good plan! In this talk, we will focus on how to take greenfield and brownfield projects, and practical approaches taken by the speaker to keep them under control. We will apply tools and structural/architectural patterns that worked in the field, and which may be useful next time you start to feel like everything is starting to become too confused."
         talk_video_url:
@@ -274,8 +274,8 @@ days:
       fantastic-functions-and-where-to-find-them:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-19T14:30+02:00
+        end_datetime: 2022-05-19T15:25+02:00
         talk_title: "Fantastic functions and where to find them"
         talk_description: "PHP is a truly amazing language. You probably use PHP to create beautiful websites and services in an expressive way. But the language is capable of so much more than what you'll probably program in your day to day job. In this entertaining talk, we'll take a look a couple of surprising ways to use PHP. You'll see lesser known functionality being used such as weak maps and process control functions. We'll also cover a couple amazing open source PHP projects that have borrowed inspiration from communities outside of PHP such as Tailwind and Phoenix. After this talk you'll be even more convinced how truly flexible PHP. You'll also have learned a couple of functions and packages that you can use in your next project."
         talk_video_url:
@@ -287,32 +287,37 @@ days:
     title: "Day 2"
     talks:
     # service
+      checkin:
+        item_type: "service"
+        start_datetime: 2022-05-20T08:30+02:00
+        end_datetime: 2022-05-20T09:15+02:00
+        talk_title: "Check-in"
       opening:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T09:15+02:00
+        end_datetime: 2022-05-20T09:30+02:00
         talk_title: "Opening by GrUSP"
       closing:
         item_type: "service"
-        start_datetime:
-        end_datetime:
-        talk_title: "See you tomorrow!"
+        start_datetime: 2022-05-20T17:45+02:00
+        end_datetime: 2022-05-20T18:00+02:00
+        talk_title: "Closing by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T11:05+02:00
+        end_datetime: 2022-05-20T11:25+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T16:20+02:00
+        end_datetime: 2022-05-20T16:50+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T13:00+02:00
+        end_datetime: 2022-05-20T14:30+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
 
@@ -320,8 +325,8 @@ days:
       kitchen-nightmares:
         item_type: "keynote"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T16:50+02:00
+        end_datetime: 2022-05-20T17:45+02:00
         talk_title: "PHP's Kitchen Nightmares"
         talk_description: "Remember the Kitchen Nightmares TV show? Chef Ramsay visiting restaurants that are struggling, and telling them how to improve, but in the process you see all the bad things happening? Let's head into our development kitchen and look at things that can go wrong, and figure out how to improve."
         talk_video_url:
@@ -330,8 +335,8 @@ days:
       never-stop-learning:
         item_type: "keynote"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T09:30+02:00
+        end_datetime: 2022-05-20T10:25+02:00
         talk_title: "Never stop learning, or how curiosity and cross pollination drives innovation"
         talk_description: "Software developers all know: continual learning is part of the job. And that's what so many of us love about it. Innovation is constant, and it's an exciting challenge to keep up with so many new technologies. But where do all these new concepts, frameworks, and patterns come from? Let's take a journey through the history of innovation to explore how different worlds collided to inspire new, radical ideas. Let's discover how cross-pollination has helped our community grow into what it is now, and can help us think of new ways to solve complex problems. Join us for a session of inspirational stories that illustrate how cross-pollination has helped form some of history's most profound innovations, and will hopefully inspire you to conjure up your own radical new ideas."
         talk_video_url:
@@ -340,8 +345,8 @@ days:
       open-api-specification:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T10:25+02:00
+        end_datetime: 2022-05-20T11:05+02:00
         talk_title: "Web API and client generation using OpenAPI specification"
         talk_description: "In this talk we'll show how to use OpenAPI specification to generate a PHP client. We will present a use case of the project that we did to build the PHP client for Elasticsearch and Enterprise Search, generating more than 400 endpoints."
         talk_video_url:
@@ -350,8 +355,8 @@ days:
       psr-18-abstracting-http-clients-in-php:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T15:25+02:00
+        end_datetime: 2022-05-20T16:20+02:00
         talk_title: "PSR-18: Abstracting HTTP clients in PHP"
         talk_description: "PSR-18 defines how to send PSR-7 requests without binding your code to a specific client implementation. Major HTTP clients like Guzzle and the Symfony HTTP client support PSR-18. This is particularly interesting for reusable libraries that need to send HTTP requests but don't care about specific client implementations."
         talk_video_url:
@@ -360,8 +365,8 @@ days:
       php-es-cqrs-ddd-an-integrated-strategy:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T14:30+02:00
+        end_datetime: 2022-05-20T15:25+02:00
         talk_title: "PHP + ES + CQRS + DDD = ? An integrated strategy"
         talk_description: "DDD, CQRS, Event Sourcing have generated a lot of buzz in recent years, but they seem an unattainable target for the everyday, long running projects we work on. The required amount of knowledge seems unbearable, halting the delivery of business value is not an option, and sticking with the \"known ways\" of development seems like a safer bet. In reality, all those approaches have so much in common underneath that applying all of them together makes them collimate toward cleaner and suppler code, with a compound effect on the benefits and a reduced overall cost of implementation. In this talk, we will see the action plan that my team designed at the start of this year to try and implement all of this inside an already-running project, going from the most useful tools to keep the implementation in check, to the use of the EventSauce library, starting from a small fraction of the project. From there, we will see that thee attack plan that will lead us, with multiple short iterations, over the process of taking over the \"old\" code and transforming it into a fully event-sourced DDD application, while still delivering new features."
         talk_video_url:
@@ -370,8 +375,8 @@ days:
       introducing-pest-a-delightful-php-testing-framework:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-05-20T11:25+02:00
+        end_datetime: 2022-05-20T12:20+02:00
         talk_title: "Introducing PEST — a delightful PHP Testing Framework"
         talk_description: "Testing can be more intuitive, user-friendly, and productive than you think! This talk introduces you to Pest - a delightful PHP Testing Framework with a focus on simplicity. It was carefully crafted to bring the joy of testing to PHP. Check out the website: pestphp.com. Get ready for a live-coding session, where I unveil all the goodies of this new open-source testing framework. After this talk, you’ll be able to use Pest in your everyday PHP."
         talk_video_url:
