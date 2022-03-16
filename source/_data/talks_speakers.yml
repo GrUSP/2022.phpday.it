@@ -4,52 +4,16 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &stefankoopmanschap
+speaker_1: &roballen
   speaker_in_speaker_lists: true
-  speaker_name: Stefan Koopmanschap
-  speaker_pic_filename: stefan-koopmanschap.jpeg
-  speaker_role: "Co-Founder @ Ingewikkeld"
-  speaker_bio: "Between having a family life, doing several radio shows and podcasts for Dutch radio station KINK and attending (online) conferences and usergroup meetings, Stefan tries running a company called Ingewikkeld and organizing a code retreat called WeCamp and an online conference called Comference. Having worked with PHP and several of its open source products since the late 90s, he still likes it for getting the job done."
-  speaker_github_url: "https://github.com/skoop"
-  speaker_twitter_url: "https://twitter.com/skoop"
+  speaker_name: Rob Allen
+  speaker_pic_filename: rob-allen.jpg
+  speaker_role: "Owner @ Nineteen Feet Ltd"
+  speaker_bio: "Rob Allen is a software consultant and developer with many years experience in a variety of interesting languages. He's particularly interested in APIs and the ecosystem around them along and contributes to Slim Framework, rst2pdf & Apache OpenWhisk along with other open source projects. Rob is a published author and based in the UK where he runs [Nineteen Feet Limited](http://19ft.com), focussing on API development, training and consultancy. In his spare time, Rob blogs at [akrabat.com](https://akrabat.com) and can often be seen with a camera in his hand."
+  speaker_github_url: "https://github.com/akrabat"
+  speaker_twitter_url: "https://twitter.com/akrabat"
   is_mc: false
-speaker_2: &paulinevos
-  speaker_in_speaker_lists: true
-  speaker_name: Pauline Vos
-  speaker_pic_filename: pauline-vos.jpg
-  speaker_role: "Freelance software engineer & consultant"
-  speaker_bio: "Pauline is freelance software engineer and consultant based in Amsterdam. She’s passionate about good, clean software design and being as efficient (lazy) as possible. You can usually catch her teaching people about Git or doting on her daughter."
-  speaker_github_url: "https://github.com/paulinevos"
-  speaker_twitter_url: "https://twitter.com/vanamerongen"
-  is_mc: false
-speaker_3: &garyhockin
-  speaker_in_speaker_lists: true
-  speaker_name: Gary Hockin
-  speaker_pic_filename: gary-hockin.jpg
-  speaker_role: "Staff Developer Evangelist @ Twilio"
-  speaker_bio: "Gary Hockin travels all over the world empowering developers as a Developer Evangelist for Twilio (fine purveyors of communication APIs). He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least 'competent' standard with over 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games and arguing with his two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want."
-  speaker_github_url: "https://github.com/GeeH"
-  speaker_twitter_url: "https://twitter.com/GeeH"
-  is_mc: false
-speaker_4: &jamestitcumb
-  speaker_in_speaker_lists: true
-  speaker_name: James Titcumb
-  speaker_pic_filename: james-titcumb.jpg
-  speaker_role: "Consultant at Roave"
-  speaker_bio: "James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference."
-  speaker_github_url: "https://github.com/asgrim"
-  speaker_twitter_url: "https://twitter.com/asgrim"
-  is_mc: false
-speaker_5: &enricozimuel
-  speaker_in_speaker_lists: true
-  speaker_name: Enrico Zimuel
-  speaker_pic_filename: enrico-zimuel.jpeg
-  speaker_role: "Principal Software Engineer @ Elastic"
-  speaker_bio: "Programmer since 1996. Principal Software Engineer at Elastic. Open source contributor and co-author of many PHP projects. Core committee member of PHP-FIG. TEDx and international speaker in 110+ conferences. Author of programming books, such as \"Sviluppare in PHP 7\" by Tecniche Nuove. Professor at ITS ICT Piemonte of Torino (Italy)."
-  speaker_github_url: "https://github.com/ezimuel"
-  speaker_twitter_url: "https://twitter.com/ezimuel"
-  is_mc: false
-speaker_6: &arneblankerts
+speaker_2: &arneblankerts
   speaker_in_speaker_lists: true
   speaker_name: Arne Blankerts
   speaker_pic_filename: arne-blankerts.jpeg
@@ -58,7 +22,16 @@ speaker_6: &arneblankerts
   speaker_github_url: "https://github.com/arneblankerts"
   speaker_twitter_url: "https://twitter.com/arneblankerts"
   is_mc: false
-speaker_7: &milanacap
+speaker_3: &davidbuchmann
+  speaker_in_speaker_lists: true
+  speaker_name: David Buchmann
+  speaker_pic_filename: david-buchmann.png
+  speaker_role: "Developer at Liip SA"
+  speaker_bio: "David Buchmann works at Liip AG as Symfony expert. He is active in several Open Source projects, notably the FOSHttpCache library and the HTTPlug client abstraction. When he is not coding, he enjoys travelling with his girlfriend, music, magic the gathering and other games."
+  speaker_github_url: "https://github.com/dbu"
+  speaker_twitter_url: "https://twitter.com/dbu"
+  is_mc: false
+speaker_4: &milanacap
   speaker_in_speaker_lists: true
   speaker_name: Milana Cap
   speaker_pic_filename: milana-cap.jpg
@@ -67,14 +40,41 @@ speaker_7: &milanacap
   speaker_github_url: "https://github.com/zzap"
   speaker_twitter_url: "https://twitter.com/DjevaLoperka"
   is_mc: false
-speaker_8: &roballen
+speaker_5: &garyhockin
   speaker_in_speaker_lists: true
-  speaker_name: Rob Allen
-  speaker_pic_filename: rob-allen.jpg
-  speaker_role: "Owner @ Nineteen Feet Ltd"
-  speaker_bio: "Rob Allen is a software consultant and developer with many years experience in a variety of interesting languages. He's particularly interested in APIs and the ecosystem around them along and contributes to Slim Framework, rst2pdf & Apache OpenWhisk along with other open source projects. Rob is a published author and based in the UK where he runs [Nineteen Feet Limited](http://19ft.com), focussing on API development, training and consultancy. In his spare time, Rob blogs at [akrabat.com](https://akrabat.com) and can often be seen with a camera in his hand."
-  speaker_github_url: "https://github.com/akrabat"
-  speaker_twitter_url: "https://twitter.com/akrabat"
+  speaker_name: Gary Hockin
+  speaker_pic_filename: gary-hockin.jpg
+  speaker_role: "Staff Developer Evangelist @ Twilio"
+  speaker_bio: "Gary Hockin travels all over the world empowering developers as a Developer Evangelist for Twilio (fine purveyors of communication APIs). He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least 'competent' standard with over 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games and arguing with his two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want."
+  speaker_github_url: "https://github.com/GeeH"
+  speaker_twitter_url: "https://twitter.com/GeeH"
+  is_mc: false
+speaker_6: &stefankoopmanschap
+  speaker_in_speaker_lists: true
+  speaker_name: Stefan Koopmanschap
+  speaker_pic_filename: stefan-koopmanschap.jpeg
+  speaker_role: "Co-Founder @ Ingewikkeld"
+  speaker_bio: "Between having a family life, doing several radio shows and podcasts for Dutch radio station KINK and attending (online) conferences and usergroup meetings, Stefan tries running a company called Ingewikkeld and organizing a code retreat called WeCamp and an online conference called Comference. Having worked with PHP and several of its open source products since the late 90s, he still likes it for getting the job done."
+  speaker_github_url: "https://github.com/skoop"
+  speaker_twitter_url: "https://twitter.com/skoop"
+  is_mc: false
+speaker_7: &alessandrolai
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandro Lai
+  speaker_pic_filename: alessandro-lai.jpg
+  speaker_role: "Engineering Manager @ Facile.it"
+  speaker_bio: "I am an Engineering Manager at Facile.it; nevertheless, I still write PHP code nearly every day. I started attending PHPDay in 2015, and it ignited my love for open source, which led me down this path of becoming a speaker, a secretary of PHP-FIG and a passionate PHP open source maintainer."
+  speaker_github_url: "https://github.com/Jean85"
+  speaker_twitter_url: "https://twitter.com/AlessandroLai"
+  is_mc: false
+speaker_8: &nunomaduro
+  speaker_in_speaker_lists: true
+  speaker_name: Nuno Maduro
+  speaker_pic_filename: nuno-maduro.jpeg
+  speaker_role: "Laravel core team member"
+  speaker_bio: "Laravel core team member — created Pest, Laravel Zero, Collision, Larastan, PHP Insights, Termwind, and more."
+  speaker_github_url: "https://github.com/nunomaduro"
+  speaker_twitter_url: "https://twitter.com/enunomaduro"
   is_mc: false
 speaker_9: &ondrejmirtes
   speaker_in_speaker_lists: true
@@ -85,25 +85,7 @@ speaker_9: &ondrejmirtes
   speaker_github_url: "https://github.com/ondrejmirtes"
   speaker_twitter_url: "https://twitter.com/ondrejmirtes"
   is_mc: false
-speaker_10: &davidbuchmann
-  speaker_in_speaker_lists: true
-  speaker_name: David Buchmann
-  speaker_pic_filename: david-buchmann.png
-  speaker_role: "Developer at Liip SA"
-  speaker_bio: "David Buchmann works at Liip AG as Symfony expert. He is active in several Open Source projects, notably the FOSHttpCache library and the HTTPlug client abstraction. When he is not coding, he enjoys travelling with his girlfriend, music, magic the gathering and other games."
-  speaker_github_url: "https://github.com/dbu"
-  speaker_twitter_url: "https://twitter.com/dbu"
-  is_mc: false
-speaker_11: &alessandrolai
-  speaker_in_speaker_lists: true
-  speaker_name: Alessandro Lai
-  speaker_pic_filename: alessandro-lai.jpg
-  speaker_role: "Engineering Manager @ Facile.it"
-  speaker_bio: "I am an Engineering Manager at Facile.it; nevertheless, I still write PHP code nearly every day. I started attending PHPDay in 2015, and it ignited my love for open source, which led me down this path of becoming a speaker, a secretary of PHP-FIG and a passionate PHP open source maintainer."
-  speaker_github_url: "https://github.com/Jean85"
-  speaker_twitter_url: "https://twitter.com/AlessandroLai"
-  is_mc: false
-speaker_12: &marcopivetta
+speaker_10: &marcopivetta
   speaker_in_speaker_lists: true
   speaker_name: Marco Pivetta
   speaker_pic_filename: marco-pivetta.png
@@ -112,16 +94,16 @@ speaker_12: &marcopivetta
   speaker_github_url: "https://github.com/ocramius"
   speaker_twitter_url: "https://twitter.com/ocramius"
   is_mc: false
-speaker_13: &nunomaduro
+speaker_11: &jamestitcumb
   speaker_in_speaker_lists: true
-  speaker_name: Nuno Maduro
-  speaker_pic_filename: nuno-maduro.jpeg
-  speaker_role: "Laravel core team member"
-  speaker_bio: "Laravel core team member — created Pest, Laravel Zero, Collision, Larastan, PHP Insights, Termwind, and more."
-  speaker_github_url: "https://github.com/nunomaduro"
-  speaker_twitter_url: "https://twitter.com/enunomaduro"
+  speaker_name: James Titcumb
+  speaker_pic_filename: james-titcumb.jpg
+  speaker_role: "Consultant at Roave"
+  speaker_bio: "James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference."
+  speaker_github_url: "https://github.com/asgrim"
+  speaker_twitter_url: "https://twitter.com/asgrim"
   is_mc: false
-speaker_14: &freekvanderherten
+speaker_12: &freekvanderherten
   speaker_in_speaker_lists: true
   speaker_name: Freek Van Der Herten
   speaker_pic_filename: freek-van-der-herten.png
@@ -130,22 +112,40 @@ speaker_14: &freekvanderherten
   speaker_github_url: "https://github.com/freekmurze"
   speaker_twitter_url: "https://twitter.com/freekmurze"
   is_mc: false
+speaker_13: &paulinevos
+  speaker_in_speaker_lists: true
+  speaker_name: Pauline Vos
+  speaker_pic_filename: pauline-vos.jpg
+  speaker_role: "Freelance software engineer & consultant"
+  speaker_bio: "Pauline is freelance software engineer and consultant based in Amsterdam. She’s passionate about good, clean software design and being as efficient (lazy) as possible. You can usually catch her teaching people about Git or doting on her daughter."
+  speaker_github_url: "https://github.com/paulinevos"
+  speaker_twitter_url: "https://twitter.com/vanamerongen"
+  is_mc: false
+speaker_14: &enricozimuel
+  speaker_in_speaker_lists: true
+  speaker_name: Enrico Zimuel
+  speaker_pic_filename: enrico-zimuel.jpeg
+  speaker_role: "Principal Software Engineer @ Elastic"
+  speaker_bio: "Programmer since 1996. Principal Software Engineer at Elastic. Open source contributor and co-author of many PHP projects. Core committee member of PHP-FIG. TEDx and international speaker in 110+ conferences. Author of programming books, such as \"Sviluppare in PHP 7\" by Tecniche Nuove. Professor at ITS ICT Piemonte of Torino (Italy)."
+  speaker_github_url: "https://github.com/ezimuel"
+  speaker_twitter_url: "https://twitter.com/ezimuel"
+  is_mc: false
 
 speakers:
-  speaker_1: *stefankoopmanschap
-  speaker_2: *paulinevos
-  speaker_3: *garyhockin
-  speaker_4: *jamestitcumb
-  speaker_5: *enricozimuel
-  speaker_6: *arneblankerts
-  speaker_7: *milanacap
-  speaker_8: *roballen
+  speaker_1: *roballen
+  speaker_2: *arneblankerts
+  speaker_3: *davidbuchmann
+  speaker_4: *milanacap
+  speaker_5: *garyhockin
+  speaker_6: *stefankoopmanschap
+  speaker_7: *alessandrolai
+  speaker_8: *nunomaduro
   speaker_9: *ondrejmirtes
-  speaker_10: *davidbuchmann
-  speaker_11: *alessandrolai
-  speaker_12: *marcopivetta
-  speaker_13: *nunomaduro
-  speaker_14: *freekvanderherten
+  speaker_10: *marcopivetta
+  speaker_11: *jamestitcumb
+  speaker_12: *freekvanderherten
+  speaker_13: *paulinevos
+  speaker_14: *enricozimuel
 
 tracks:
   track_1: &track_1
