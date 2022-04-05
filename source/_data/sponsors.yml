@@ -4,16 +4,16 @@ sponsors_block_title: "Thanks for your support!"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# diamond:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+diamond:
+  sponsor1:
+    name: "OVH Cloud"
+    logo_filename: "ovh.png"
+    site_url: "https://www.ovhcloud.com/"
+platinum:
+  sponsor1:
+    name: "Twilio"
+    logo_filename: "twilio.svg"
+    site_url: "https://www.twilio.com/"
 gold:
   sponsor1:
     name: "sparkfabrik"
@@ -41,7 +41,11 @@ silver:
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
 bronze:
-  sponsor6:
+  sponsor1:
+    name: "Innoteam"
+    logo_filename: "innoteam.svg"
+    site_url: "https://www.innoteam.it/"
+  sponsor2:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
