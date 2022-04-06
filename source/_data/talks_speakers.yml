@@ -130,22 +130,44 @@ speaker_14: &enricozimuel
   speaker_github_url: "https://github.com/ezimuel"
   speaker_twitter_url: "https://twitter.com/ezimuel"
   is_mc: false
+speaker_15: &armandocaprio
+  speaker_in_speaker_lists: true
+  speaker_name: Armando Caprio
+  speaker_pic_filename: armando-caprio.jpeg
+  speaker_role: "Senior Web Developer @ Shellrent"
+  speaker_bio: "I graduated from Padova University in 2015 with a Bachelor's Degree in Computer Science.
+As a software developer I specialized in data structures and software architecture, topics that have always thrilled me and that have given me great professional satisfaction.
+In my spare time I enjoy playing chess and American Football for my hometown team."
+  speaker_github_url: "https://github.com/armandocaprio"
+  speaker_twitter_url: ""
+  is_mc: false
+speaker_16: &joshuachapman
+  speaker_in_speaker_lists: true
+  speaker_name: Joshua Chapman
+  speaker_pic_filename: joshua-chapman.jpg
+  speaker_role: "Developer @ Shellrent"
+  speaker_bio: "I am a CS student and developer at Shellrent, where I daily write PHP code for the backend. I am interested in secure code and fearless refactoring through testing and TDD/BDT practices. I also love experimenting to improve my developer productivity and reliability through the tooling around a language, to succeed in writing good code."
+  speaker_github_url: "https://github.com/joshuachp"
+  speaker_twitter_url: ""
+  is_mc: false
 
 speakers:
   speaker_1: *roballen
   speaker_2: *arneblankerts
   speaker_3: *davidbuchmann
   speaker_4: *milanacap
-  speaker_5: *garyhockin
-  speaker_6: *stefankoopmanschap
-  speaker_7: *alessandrolai
-  speaker_8: *nunomaduro
-  speaker_9: *ondrejmirtes
-  speaker_10: *marcopivetta
-  speaker_11: *jamestitcumb
-  speaker_12: *freekvanderherten
-  speaker_13: *paulinevos
-  speaker_14: *enricozimuel
+  speaker_5: *armandocaprio
+  speaker_6: *joshuachapman
+  speaker_7: *garyhockin
+  speaker_8: *stefankoopmanschap
+  speaker_9: *alessandrolai
+  speaker_10: *nunomaduro
+  speaker_11: *ondrejmirtes
+  speaker_12: *marcopivetta
+  speaker_13: *jamestitcumb
+  speaker_14: *freekvanderherten
+  speaker_15: *paulinevos
+  speaker_16: *enricozimuel
 
 tracks:
   track_1: &track_1
@@ -352,6 +374,17 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *nunomaduro
+      how-to-build-a-test-suite-from-scratch:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-20T12:20+02:00
+        end_datetime: 2022-05-20T13:00+02:00
+        talk_title: "How to build a test suite from scratch"
+        talk_description: "Building of a test environment for PhpUnit based on a PHP non-test-native application built on Phalcon framework. Identification of the useful and necessary components for the creation of a complete environment for writing test cases and their execution. CI/CD structuring with GitLab and GitLab Runner."
+        talk_video_url:
+        speakers:
+          speaker_1: *armandocaprio
+          speaker_2: *joshuachapman
       php-es-cqrs-ddd-an-integrated-strategy:
         item_type: "talk"
         track: *track_1

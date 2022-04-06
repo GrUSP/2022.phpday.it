@@ -6,9 +6,9 @@ sponsors_block_title: "Thanks for your support!"
 #     site_url: ""
 diamond:
   sponsor1:
-    name: "OVH Cloud"
-    logo_filename: "ovh.png"
-    site_url: "https://www.ovhcloud.com/"
+    name: "Shellrent"
+    logo_filename: "shellrent.svg"
+    site_url: "https://www.shellrent.com/"
 platinum:
   sponsor1:
     name: "Twilio"
