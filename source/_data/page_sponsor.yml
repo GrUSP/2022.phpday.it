@@ -121,6 +121,7 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 16
     description_3:
+      - "Your logo on conference rollup banners (in-person event)"
       - "Your logo displayed on rotation in the lower third throughout the event"
     description_4:
       - "Bring your gadgets to the in-person event"
