@@ -16,10 +16,14 @@ platinum:
     site_url: "https://www.twilio.com/"
 gold:
   sponsor1:
+    name: "kanbanbox"
+    logo_filename: "kanbanbox.svg"
+    site_url: "https://www.kanbanbox.com/it/lavora-con-noi/backend-frontend-developer"
+  sponsor2:
     name: "sparkfabrik"
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
-  sponsor2:
+  sponsor3:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
