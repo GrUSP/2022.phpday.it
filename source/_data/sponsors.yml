@@ -11,6 +11,10 @@ diamond:
     site_url: "https://www.shellrent.com/"
 platinum:
   sponsor1:
+    name: "Jagaad"
+    logo_filename: "jagaad.svg"
+    site_url: "https://jagaad.com/"
+  sponsor2:
     name: "Twilio"
     logo_filename: "twilio.svg"
     site_url: "https://www.twilio.com/"
@@ -24,6 +28,10 @@ gold:
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
   sponsor3:
+    name: "StoryBlok"
+    logo_filename: "storyblok.svg"
+    site_url: "https://www.storyblok.com/"
+  sponsor4:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -41,6 +49,10 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
   sponsor4:
+    name: "Roave"
+    logo_filename: "roave.svg"
+    site_url: "https://roave.com/"
+  sponsor5:
     name: "Spreaker from iHeart"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
@@ -53,11 +65,11 @@ bronze:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
-#diversity:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+diversity:
+  sponsor1:
+    name: "StoryBlok"
+    logo_filename: "storyblok.svg"
+    site_url: "https://www.storyblok.com/"
 
 # Partner configuration
 partner_tags:
