@@ -37,25 +37,33 @@ gold:
     site_url: "https://www.workwave.com/"
 silver:
   sponsor1:
+    name: "Elastic"
+    logo_filename: "elastic.svg"
+    site_url: "https://www.elastic.co/"
+  sponsor2:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-  sponsor2:
+  sponsor3:
     name: "Ingewikkeld"
     logo_filename: "Ingewikkeld.svg"
     site_url: "https://ingewikkeld.dev/"
-  sponsor3:
+  sponsor4:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor4:
+  sponsor5:
     name: "Roave"
     logo_filename: "roave.svg"
     site_url: "https://roave.com/"
-  sponsor5:
+  sponsor6:
     name: "Spreaker from iHeart"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
+  sponsor7:
+    name: "Switcho"
+    logo_filename: "switcho.svg"
+    site_url: "https://www.switcho.it/"
 bronze:
   sponsor1:
     name: "Innoteam"

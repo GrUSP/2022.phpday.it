@@ -133,7 +133,7 @@ speaker_14: &enricozimuel
 speaker_15: &armandocaprio
   speaker_in_speaker_lists: true
   speaker_name: Armando Caprio
-  speaker_pic_filename: armando-caprio.jpeg
+  speaker_pic_filename: armando-caprio.jpg
   speaker_role: "Senior Web Developer @ Shellrent"
   speaker_bio: "I graduated from Padova University in 2015 with a Bachelor's Degree in Computer Science.
 As a software developer I specialized in data structures and software architecture, topics that have always thrilled me and that have given me great professional satisfaction.
@@ -150,6 +150,15 @@ speaker_16: &joshuachapman
   speaker_github_url: "https://github.com/joshuachp"
   speaker_twitter_url: ""
   is_mc: false
+speaker_17: &stefano
+  speaker_in_speaker_lists: true
+  speaker_name: Stefano Torresi
+  speaker_pic_filename: stefano-torresi.jpg
+  speaker_role: "Engineering Manager @ SUSE - MASTER OF CEREMONIES"
+  speaker_bio: ""
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  is_mc: true
 
 speakers:
   speaker_1: *roballen
@@ -168,6 +177,7 @@ speakers:
   speaker_14: *freekvanderherten
   speaker_15: *paulinevos
   speaker_16: *enricozimuel
+  speaeker_17: *stefano
 
 tracks:
   track_1: &track_1
