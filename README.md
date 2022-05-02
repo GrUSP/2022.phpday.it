@@ -163,6 +163,13 @@ open_graph:
 
 a volte non viene interpretato correttamente, open_graph.js non genera tutti i tag `og:`, e in OpenGraph non risulta l'immagine. Stiamo monitorando la cosa...
 
+Un'immagine aggiuntiva da utilizzare sui social per la pagina `talks_speakers` va indicata in `talks_speakers.yml`
+e caricata in `source/assets/img`:
+
+```
+social_lineup_image: "social-lineup-1200x630.png"
+```
+
 #### Breadcrumbs
 
 ```
