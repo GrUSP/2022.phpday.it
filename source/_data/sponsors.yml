@@ -57,10 +57,14 @@ silver:
     logo_filename: "roave.svg"
     site_url: "https://roave.com/"
   sponsor6:
+    name: "SiteGround"
+    logo_filename: "siteground.png"
+    site_url: "https://www.siteground.com/"
+  sponsor7:
     name: "Spreaker from iHeart"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor7:
+  sponsor8:
     name: "Switcho"
     logo_filename: "switcho.svg"
     site_url: "https://www.switcho.it/"

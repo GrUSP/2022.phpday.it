@@ -207,7 +207,7 @@ days:
         item_type: "service"
         start_datetime: 2022-05-19T08:30+02:00
         end_datetime: 2022-05-19T09:15+02:00
-        talk_title: "Check-in"
+        talk_title: "Check-in and Welcome Coffee"
       opening:
         item_type: "service"
         start_datetime: 2022-05-19T09:15+02:00
@@ -231,6 +231,12 @@ days:
         end_datetime: 2022-05-19T14:30+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
+      happy-hour:
+        item_type: "service"
+        start_datetime: 2022-05-19T18:25+02:00
+        end_datetime: 2022-05-19T19:30+02:00
+        talk_title: "Happy Hour"
+        service_icon: "glass"
 
       # talk
       live-coding-in-public:
@@ -323,7 +329,7 @@ days:
         item_type: "service"
         start_datetime: 2022-05-20T08:30+02:00
         end_datetime: 2022-05-20T09:15+02:00
-        talk_title: "Check-in"
+        talk_title: "Check-in and Welcome Coffee"
       opening:
         item_type: "service"
         start_datetime: 2022-05-20T09:15+02:00
