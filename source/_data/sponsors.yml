@@ -18,6 +18,10 @@ platinum:
     name: "Twilio"
     logo_filename: "twilio.svg"
     site_url: "https://www.twilio.com/"
+  sponsor3:
+    name: "Vianova"
+    logo_filename: "vianova.svg"
+    site_url: "https://www.vianova.it/"
 gold:
   sponsor1:
     name: "kanbanbox"
@@ -36,6 +40,10 @@ gold:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
+  sponsor0:
+    name: "Daruma"
+    logo_filename: "daruma.svg"
+    site_url: "https://www.darumahq.com/"
   sponsor1:
     name: "Elastic"
     logo_filename: "elastic.svg"
