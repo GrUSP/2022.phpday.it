@@ -14,14 +14,14 @@ speaker_1: &roballen
   speaker_github_url: "https://github.com/akrabat"
   speaker_twitter_url: "https://twitter.com/akrabat"
   is_mc: false
-speaker_2: &arneblankerts
+speaker_2: &chrishartjes
   speaker_in_speaker_lists: true
-  speaker_name: Arne Blankerts
-  speaker_pic_filename: arne-blankerts.jpeg
-  speaker_role: "Co-Founder and Principal Consultant @ thePHP.cc"
-  speaker_bio: "Arne Blankerts has created solutions far ahead of the times already years ago. He helps to create sustainable software and tailored infrastructures, and finds security issues with magic intuition. In his free time, he reads fantasy novels and likes to cook."
-  speaker_github_url: "https://github.com/arneblankerts"
-  speaker_twitter_url: "https://twitter.com/arneblankerts"
+  speaker_name: Chris Hartjes
+  speaker_pic_filename: chris-hartjes.jpg
+  speaker_role: "Consultant @ Roave"
+  speaker_bio: "Chris has been helping build websites of all sorts of shapes and sizes, mostly using PHP, since 1998. He has been shouting at people to write tests for their PHP code since 2005. He works from his home office in the snowy wilds of Canada."
+  speaker_github_url: "https://github.com/chartjes"
+  speaker_twitter_url: "https://twitter.com/grmpyprogrammer"
   is_mc: false
 speaker_3: &davidbuchmann
   speaker_in_speaker_lists: true
@@ -163,11 +163,11 @@ speaker_17: &stefano
 
 speakers:
   speaker_1: *roballen
-  speaker_2: *arneblankerts
-  speaker_3: *davidbuchmann
-  speaker_4: *milanacap
-  speaker_5: *armandocaprio
-  speaker_6: *joshuachapman
+  speaker_2: *davidbuchmann
+  speaker_3: *milanacap
+  speaker_4: *armandocaprio
+  speaker_5: *joshuachapman
+  speaker_6: *chrishartjes
   speaker_7: *garyhockin
   speaker_8: *stefankoopmanschap
   speaker_9: *alessandrolai
@@ -250,16 +250,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *garyhockin
-      php-81:
+      tests-wont-save:
         item_type: "talk"
         track: *track_1
         start_datetime: 2022-05-19T10:25+02:00
         end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "PHP 8.1 - Just upgrade and go?"
-        talk_description: "Life could be so easy: Just roll out the latest PHP version on all systems, immediately benefit from the new features and otherwise get back to implementing new requirements. In reality, however, it's not that simple: Who has time to read through all the changes in PHP and check for possible side effects in their own software? But does that really have to be the case? In this talk, we'll explore what better approaches there are to prepare for an upgrade, what tools might help, and how you can almost completely avoid the stress of a version bump."
+        talk_title: "Your Tests Won't Save You"
+        talk_description: "Having a good suite of automated tests simply isn't enough to ensure your application continues to behave as expected and that your code base continues to be maintainable. In this talk Chris draws on his real-world experiences to discuss tools he believes should be used alongside your tests. You'll be introduced to code linters, static analysis tools, and build servers by someone who used to have to do this work both ways, uphill, and in the snow."
         talk_video_url:
         speakers:
-          speaker_1: *arneblankerts
+          speaker_1: *chrishartjes
       the-right-api-for-the-job:
         item_type: "talk"
         track: *track_1

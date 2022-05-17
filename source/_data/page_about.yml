@@ -45,4 +45,8 @@ team:
       name: "Francesco Fullone"
       role: "Troublemaker"
       pic_filename: "fullo.jpg"
+    member_7:
+      name: "Ruggero Landolina"
+      role: "Supporter"
+      pic_filename: "ruggero.png"
 
