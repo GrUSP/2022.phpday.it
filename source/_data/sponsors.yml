@@ -43,7 +43,7 @@ silver:
   sponsor0:
     name: "Daruma"
     logo_filename: "daruma.svg"
-    site_url: "https://www.darumahq.com/"
+    site_url: "http://www.darumahq.com/"
   sponsor1:
     name: "Elastic"
     logo_filename: "elastic.svg"
