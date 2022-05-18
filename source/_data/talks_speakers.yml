@@ -142,14 +142,12 @@ In my spare time I enjoy playing chess and American Football for my hometown tea
   speaker_github_url: "https://github.com/armandocaprio"
   speaker_twitter_url: ""
   is_mc: false
-speaker_16: &joshuachapman
+speaker_16: &tobiazanarella
   speaker_in_speaker_lists: true
-  speaker_name: Joshua Chapman
-  speaker_pic_filename: joshua-chapman.jpg
-  speaker_role: "Developer @ Shellrent"
-  speaker_bio: "I am a CS student and developer at Shellrent, where I daily write PHP code for the backend. I am interested in secure code and fearless refactoring through testing and TDD/BDT practices. I also love experimenting to improve my developer productivity and reliability through the tooling around a language, to succeed in writing good code."
-  speaker_github_url: "https://github.com/joshuachp"
-  speaker_twitter_url: ""
+  speaker_name: Tobia Zanarella
+  speaker_pic_filename: tobia-zanarella.jpg
+  speaker_role: "Head of Software Development @ Shellrent"
+  speaker_bio: "I graduated from Milano University of Studies with a Bachelor's Degree in Security of IT Systems and Networks. I am very passionate about data science and software engineering. As head of development, my commitment is focused on motivating and supporting the developers of my team and making the work environment as comfortable and optimized as possible."
   is_mc: false
 speaker_17: &stefano
   speaker_in_speaker_lists: true
@@ -166,17 +164,17 @@ speakers:
   speaker_2: *davidbuchmann
   speaker_3: *milanacap
   speaker_4: *armandocaprio
-  speaker_5: *joshuachapman
-  speaker_6: *chrishartjes
-  speaker_7: *garyhockin
-  speaker_8: *stefankoopmanschap
-  speaker_9: *alessandrolai
-  speaker_10: *nunomaduro
-  speaker_11: *ondrejmirtes
-  speaker_12: *marcopivetta
-  speaker_13: *jamestitcumb
-  speaker_14: *freekvanderherten
-  speaker_15: *paulinevos
+  speaker_5: *chrishartjes
+  speaker_6: *garyhockin
+  speaker_7: *stefankoopmanschap
+  speaker_8: *alessandrolai
+  speaker_9: *nunomaduro
+  speaker_10: *ondrejmirtes
+  speaker_11: *marcopivetta
+  speaker_12: *jamestitcumb
+  speaker_13: *freekvanderherten
+  speaker_14: *paulinevos
+  speaker_15: *tobiazanarella
   speaker_16: *enricozimuel
   speaeker_17: *stefano
 
@@ -401,7 +399,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *armandocaprio
-          speaker_2: *joshuachapman
+          speaker_2: *tobiazanarella
       php-es-cqrs-ddd-an-integrated-strategy:
         item_type: "talk"
         track: *track_1
